@@ -8,7 +8,7 @@ void ATankAIController::BeginPlay()
 {
 	Super::BeginPlay();
 }
-ATank* ATankAIController::GetControlledTank() const
+ATank* ATankAIController::GetAIControlledTank() const
 {
 	return Cast<ATank>(GetPawn());
 }
